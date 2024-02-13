@@ -1,6 +1,6 @@
 # react vite template
 
-- [] React
+- [ ] React
 - [] Typescript
 - [] ESLint
 - [] Prettier
