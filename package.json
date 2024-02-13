@@ -2,6 +2,7 @@
   "name": "react-vite-template",
   "version": "1.0.0",
   "private": false,
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "build": "tsc && vite build",
