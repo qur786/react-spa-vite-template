@@ -2,16 +2,26 @@
   "name": "react-vite-template",
   "version": "1.0.0",
   "private": false,
+  "description": "A React template generated with vite with prettier, eslint, typescript and tailwind-css features for cross-platform development",
+  "homepage": "https://github.com/qur786/react-vite-template#readme",
+  "bugs": {
+    "url": "https://github.com/qur786/react-vite-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qur786/react-vite-template.git"
+  },
   "license": "MIT",
+  "author": "Qurban Ahmad <ahmad76qurban@gmail.com>",
   "type": "module",
   "scripts": {
     "build": "tsc && vite build",
-    "start": "vite",
+    "clean": "shx rm -rf dist node_modules",
     "format": "yarn lint && yarn pretty",
     "lint": "eslint . --ext ts,tsx --fix --report-unused-disable-directives --max-warnings 0",
     "pretty": "prettier src/**/*.{ts,tsx,js,jsx,css} --write && sort-package-json",
     "preview": "vite preview",
-    "clean": "shx rm -rf dist node_modules"
+    "start": "vite"
   },
   "dependencies": {
     "react": "^18.2.0",
