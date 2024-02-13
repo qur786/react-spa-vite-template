@@ -1,8 +1,8 @@
 # react vite template
 
-- [ ] React
-- [] Typescript
-- [] ESLint
-- [] Prettier
-- [] Tailwind CSS
-- [] Shx
+- [x] React
+- [x] Typescript
+- [x] ESLint
+- [x] Prettier
+- [x] Tailwind CSS
+- [x] shx
